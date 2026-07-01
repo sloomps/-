@@ -459,4 +459,4 @@ client.on('messageCreate', async message => {
 });
 
 // يرجى وضع التوكن الجديد والمحمي هنا (تأكد من عمل Reset للتوكن من موقع ديسكورد أولاً لسلامة سيرفرك)
-client.login(process.env.DISCORD_TOKEN);
+client.login(process.env.DISCORD_TOKEN || "MTUxNjk3NjM2NjkwNDY3MjI2Ng.GqJIcs.bWjnCZ2eB6uRPN1BI48uc5HoqHT-QO9hW1CG8Q");
